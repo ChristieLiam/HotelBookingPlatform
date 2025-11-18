@@ -53,11 +53,11 @@ A full-stack web application for browsing and booking hotel rooms, built entirel
 
 ### Step 1: Clone the repository
 
-    git clone [your-repo-url]
+    git clone https://github.com/ChristieLiam/HotelBookingPlatform.git
 
 ### Step 2: Navigate into the project directory
 
-    cd [project-folder-name]
+    cd HotelBookingPlatform-main
 
 ### Step 3: Start the server
 
