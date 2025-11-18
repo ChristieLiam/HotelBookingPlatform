@@ -1,0 +1,145 @@
+{
+  "rooms": [
+    {
+      "room_number": "109",
+      "bookings": [
+        {
+          "name": "Liam Christie",
+          "phone": "9052510040",
+          "email": "liam_christie@outlook.com",
+          "checkIn": "2025-03-01",
+          "checkOut": "2025-03-03"
+        }
+      ]
+    },
+    {
+      "room_number": "108",
+      "bookings": [
+        {
+          "name": "Liam Christie",
+          "phone": "9052510040",
+          "email": "liam_christie@outlook.com",
+          "checkIn": "2025-03-09",
+          "checkOut": "2025-03-012"
+        }
+      ]
+    },
+    {
+      "room_number": "107",
+      "bookings": [
+        {
+          "name": "Liam Christie",
+          "phone": "9052510040",
+          "email": "liam_christie@outlook.com",
+          "checkIn": "2025-04-07",
+          "checkOut": "2025-04-11"
+        }
+      ]
+    },
+    {
+      "room_number": "111",
+      "bookings": [
+        {
+          "name": "Liam Christie",
+          "phone": "9052510040",
+          "email": "liam_christie@outlook.com",
+          "checkIn": "2025-08-01",
+          "checkOut": "2025-08-03"
+        }
+      ]
+    },
+    {
+      "room_number": "501",
+      "bookings": [
+        {
+          "name": "Sponge Bob",
+          "phone": "underthesea",
+          "email": "pattyMaker@krusty.com",
+          "checkIn": "2025-03-11",
+          "checkOut": "2025-03-20"
+        },
+        {
+          "name": "Jacob Bunt",
+          "phone": "226-792-2744",
+          "email": "jc651389@dal.ca",
+          "checkIn": "2025-04-20",
+          "checkOut": "2025-06-11"
+        }
+      ]
+    },
+    {
+      "room_number": "101",
+      "bookings": [
+        {
+          "name": "Liam Christie",
+          "phone": "9052510040",
+          "email": "liam_christie@outlook.com",
+          "checkIn": "2025-12-10",
+          "checkOut": "2025-12-17"
+        },
+        {
+          "name": "Squidward Quilliam",
+          "phone": "xxxxxxxxxx",
+          "email": "fluteTooter@opera.com",
+          "checkIn": "2025-03-12",
+          "checkOut": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "room_number": "102",
+      "bookings": [
+        {
+          "name": "Liam Christie",
+          "phone": "9052510040",
+          "email": "liam_christie@outlook.com",
+          "checkIn": "2025-07-10",
+          "checkOut": "2025-07-17"
+        }
+      ]
+    },
+    {
+      "room_number": "601",
+      "bookings": [
+        {
+          "name": "Patrick Star",
+          "phone": "2346548896",
+          "email": "patrickStar@havard.edu",
+          "checkIn": "2025-06-01",
+          "checkOut": "2025-06-07"
+        }
+      ]
+    },
+    {
+      "room_number": "401",
+      "bookings": [
+        {
+          "name": "Squidward Quilliam",
+          "phone": "xxxxxxxxxx",
+          "email": "fluteTooter@opera.com",
+          "checkIn": "2025-04-09",
+          "checkOut": "2025-04-16"
+        },
+        {
+          "name": "Tester",
+          "phone": "9999999999",
+          "email": "test@test.com",
+          "checkIn": "2025-03-08",
+          "checkOut": "2025-03-15"
+        }
+      ]
+    },
+    {
+      "room_number": "402",
+      "bookings": [
+        {
+          "name": "Liam test",
+          "phone": "9052510040",
+          "email": "liam_christie@outlook.com",
+          "checkIn": "2025-03-08",
+          "checkOut": "2025-03-15"
+        }
+      ]
+    }
+  ]
+}

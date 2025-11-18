@@ -1,0 +1,336 @@
+[
+  {
+    "type": "single",
+    "rooms": [
+      {
+        "id": "SINGLE_1",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "101",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_2",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "102",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_3",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "103",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_4",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "104",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_5",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "105",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_6",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "106",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_7",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "107",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_8",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "108",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_9",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "109",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_10",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "110",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_11",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "111",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_12",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "112",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_13",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "113",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_14",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "114",
+        "room_type": "Single"
+      },
+      {
+        "id": "SINGLE_15",
+        "name": "Single Room",
+        "price": 150,
+        "available": true,
+        "room_number": "115",
+        "room_type": "Single"
+      }
+    ]
+  },
+  {
+    "type": "double",
+    "rooms": [
+      {
+        "id": "DOUBLE_1",
+        "name": "Double Room",
+        "price": 200,
+        "available": true,
+        "room_number": "201",
+        "room_type": "Double"
+      },
+      {
+        "id": "DOUBLE_2",
+        "name": "Double Room",
+        "price": 200,
+        "available": true,
+        "room_number": "202",
+        "room_type": "Double"
+      },
+      {
+        "id": "DOUBLE_3",
+        "name": "Double Room",
+        "price": 200,
+        "available": true,
+        "room_number": "203",
+        "room_type": "Double"
+      },
+      {
+        "id": "DOUBLE_4",
+        "name": "Double Room",
+        "price": 200,
+        "available": true,
+        "room_number": "204",
+        "room_type": "Double"
+      },
+      {
+        "id": "DOUBLE_5",
+        "name": "Double Room",
+        "price": 200,
+        "available": true,
+        "room_number": "205",
+        "room_type": "Double"
+      },
+      {
+        "id": "DOUBLE_6",
+        "name": "Double Room",
+        "price": 200,
+        "available": true,
+        "room_number": "206",
+        "room_type": "Double"
+      },
+      {
+        "id": "DOUBLE_7",
+        "name": "Double Room",
+        "price": 200,
+        "available": true,
+        "room_number": "207",
+        "room_type": "Double"
+      },
+      {
+        "id": "DOUBLE_8",
+        "name": "Double Room",
+        "price": 200,
+        "available": true,
+        "room_number": "208",
+        "room_type": "Double"
+      },
+      {
+        "id": "DOUBLE_9",
+        "name": "Double Room",
+        "price": 200,
+        "available": true,
+        "room_number": "209",
+        "room_type": "Double"
+      },
+      {
+        "id": "DOUBLE_10",
+        "name": "Double Room",
+        "price": 200,
+        "available": true,
+        "room_number": "210",
+        "room_type": "Double"
+      }
+    ]
+  },
+  {
+    "type": "suite",
+    "rooms": [
+      {
+        "id": "SUITE_1",
+        "name": "Regular Suite",
+        "price": 425,
+        "available": true,
+        "room_number": "301",
+        "room_type": "Suite"
+      },
+      {
+        "id": "SUITE_2",
+        "name": "Regular Suite",
+        "price": 425,
+        "available": true,
+        "room_number": "302",
+        "room_type": "Suite"
+      },
+      {
+        "id": "SUITE_3",
+        "name": "Regular Suite",
+        "price": 425,
+        "available": true,
+        "room_number": "303",
+        "room_type": "Suite"
+      },
+      {
+        "id": "SUITE_4",
+        "name": "Regular Suite",
+        "price": 425,
+        "available": true,
+        "room_number": "304",
+        "room_type": "Suite"
+      },
+      {
+        "id": "SUITE_5",
+        "name": "Regular Suite",
+        "price": 425,
+        "available": true,
+        "room_number": "305",
+        "room_type": "Suite"
+      },
+      {
+        "id": "SUITE_6",
+        "name": "Regular Suite",
+        "price": 425,
+        "available": true,
+        "room_number": "306",
+        "room_type": "Suite"
+      }
+    ]
+  },
+  {
+    "type": "luxury suite",
+    "rooms": [
+      {
+        "id": "SUITE_LUXURY_1",
+        "name": "Luxury Suite",
+        "price": 675,
+        "available": true,
+        "room_number": "401",
+        "room_type": "Luxury Suite"
+      },
+      {
+        "id": "SUITE_LUXURY_2",
+        "name": "Luxury Suite",
+        "price": 675,
+        "available": true,
+        "room_number": "402",
+        "room_type": "Luxury Suite"
+      },
+      {
+        "id": "SUITE_LUXURY_3",
+        "name": "Luxury Suite",
+        "price": 675,
+        "available": true,
+        "room_number": "403",
+        "room_type": "Luxury Suite"
+      },
+      {
+        "id": "SUITE_LUXURY_4",
+        "name": "Luxury Suite",
+        "price": 675,
+        "available": true,
+        "room_number": "404",
+        "room_type": "Luxury Suite"
+      }
+    ]
+  },
+  {
+    "type": "presidential suite",
+    "rooms": [
+      {
+        "id": "SUITE_PRESIDENTIAL_1",
+        "name": "Presidential Suite",
+        "price": 1375,
+        "available": true,
+        "room_number": "501",
+        "room_type": "Presidential Suite"
+      },
+      {
+        "id": "SUITE_PRESIDENTIAL_2",
+        "name": "Presidential Suite",
+        "price": 1375,
+        "available": true,
+        "room_number": "502",
+        "room_type": "Presidential Suite"
+      }
+    ]
+  },
+  {
+    "type": "penthouse",
+    "rooms": [
+      {
+        "id": "PENTHOUSE_1",
+        "name": "Penthouse Suite",
+        "price": 4699,
+        "available": true,
+        "room_number": "601",
+        "room_type": "Penthouse"
+      }
+    ]
+  }
+]

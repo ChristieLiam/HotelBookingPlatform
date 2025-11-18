@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Booking Platform</title>
+    <!-- Linking external CSS file for custom styles -->
+    <link href="/styles.css" rel="stylesheet" type="text/css">
+    <!-- Linking Bootstrap CSS for responsive design and styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<header class="bg-primary text-white text-center py-3">
+    <h1>The Christie Hotel | Booking</h1>
+</header>
+
+<main class="container mt-4">
+    <!-- Booking Form Section -->
+    <div class="card p-4 shadow-sm">
+        <h3 class="text-center mb-3">Book Your Stay</h3>
+        <form action="/booking/submission/" class="row g-3" id="bookingForm" method="get">
+            <!-- Room Type Selection -->
+            <div class="col-md-6">
+                <label class="form-label" for="roomType">Select Room Type</label>
+                <select class="form-select" id="roomType" name="roomType" required>
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="suite">Suite</option>
+                    <option value="luxury suite">Luxury Suite</option>
+                    <option value="presidential suite">Presidential Suite</option>
+                    <option value="penthouse">Penthouse</option>
+                </select>
+            </div>
+            <!-- Optional Room Number Field -->
+            <div class="col-md-6">
+                <label class="form-label" for="roomNum">Preferred Room# (Optional)</label>
+                <input class="form-control" id="roomNum" name="roomNum" placeholder="101" type="text">
+            </div>
+            <!-- Name Input Field -->
+            <div class="col-md-6">
+                <label class="form-label" for="name">Full Legal Name</label>
+                <input class="form-control" id="name" name="name" placeholder="John Doe" required type="text">
+            </div>
+            <!-- Email Input Field -->
+            <div class="col-md-6">
+                <label class="form-label" for="email">Email Address</label>
+                <input class="form-control" id="email" name="email" placeholder="name@example.com" required
+                       type="email">
+            </div>
+            <!-- Phone Number Input Field -->
+            <div class="col-md-6">
+                <label class="form-label" for="phone">Phone Number</label>
+                <input class="form-control" id="phone" name="phone" placeholder="123-456-7890" required type="tel">
+            </div>
+            <!-- Check-In Date Picker -->
+            <div class="col-md-6">
+                <label class="form-label" for="checkInDate">Check-In Date</label>
+                <input class="form-control" id="checkInDate" name="checkInDate" required type="date">
+            </div>
+            <!-- Check-Out Date Picker -->
+            <div class="col-md-6">
+                <label class="form-label" for="checkOutDate">Check-Out Date</label>
+                <input class="form-control" id="checkOutDate" name="checkOutDate" required type="date">
+            </div>
+
+            <!-- Submit Button -->
+            <div class="col-12 text-center mt-3">
+                <input class="btn btn-success btn-lg" id="submitBooking" type="submit" value="Confirm Booking">
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Alert Message Section I use html replace in server.js to dynamically change the alert-->
+    <div>
+        <!--ALERT_MESSAGE_HERE-->
+    </div>
+
+    <!-- Back to Homepage Button -->
+    <div class="text-center mt-4">
+        <button class="btn btn-secondary btn-lg" onclick="redirectToMain()">Back To Homepage</button>
+    </div>
+
+</main>
+
+<script>
+    // Redirects the user back to the homepage when clicked
+    function redirectToMain() {
+        window.location.href = "/";
+    }
+</script>
+
+<!-- Bootstrap JS for additional interactive components -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

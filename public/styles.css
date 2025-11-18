@@ -1,0 +1,43 @@
+.custom-container {
+    /* Spacing and styling for the main container */
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table-wrapper {
+    /* Enables horizontal scrolling if needed */
+    overflow-x: auto;
+}
+
+.custom-table {
+    /* Full-width table with proper styling */
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.custom-table th,
+.custom-table td {
+    /* Consistent padding and border */
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-table-head {
+    /* Header background color */
+    background: #007bff;
+    color: white;
+}
+
+.custom-table tbody tr:hover {
+    /* Hover effect for rows */
+    background: #f1f1f1;
+    transition: 0.3s;
+}
