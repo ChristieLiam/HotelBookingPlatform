@@ -57,7 +57,7 @@ A full-stack web application for browsing and booking hotel rooms, built entirel
 
 ### Step 2: Navigate into the project directory
 
-    cd HotelBookingPlatform-main
+    cd HotelBookingPlatform
 
 ### Step 3: Start the server
 
